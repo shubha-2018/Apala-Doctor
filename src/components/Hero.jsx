@@ -1,8 +1,8 @@
 // src/components/Hero.jsx
 
 import { useState, useEffect } from "react";
-import s2 from "../assets/s2.png";
-import s1 from "../assets/s1.png";
+import s2 from "../assets/S2.png";
+import s1 from "../assets/S1.png";
 import h11 from "../assets/h11.png";
 
 export default function Hero() {
