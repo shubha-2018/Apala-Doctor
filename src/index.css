@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   GLOBAL DESIGN SYSTEM
+========================= */
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #ffffff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #3b82f6;
+}
+
+/* RESET */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* ⭐ IMPORTANT FIX */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* ROOT */
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* ⭐ extra safety */
+}
+
+/* Headings */
+h1, h2 {
+  color: var(--text-h);
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Paragraph */
+p {
+  margin: 0;
+}
+
+/* Code */
+code {
+  font-family: ui-monospace, monospace;
+  background: var(--code-bg);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Utility border */
+.border {
+  border: 1px solid var(--border);
+}
