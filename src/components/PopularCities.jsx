@@ -1,6 +1,4 @@
-// src/components/PopularCities.jsx
-
-import { cities } from "../data/homeData";
+import { cities } from "../data/homeData.js";
 
 export default function PopularCities() {
   return (
