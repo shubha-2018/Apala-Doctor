@@ -40,7 +40,7 @@ export const reviews = [
   { name: "Amit Verma", review: "Excellent healthcare directory." },
 ];
 
-export const homeData = {
+export const Homedata = {
   popularSearches,
   listings,
   cities,
