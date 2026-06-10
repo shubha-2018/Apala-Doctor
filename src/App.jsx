@@ -44,7 +44,7 @@ function Home() {
   );
 }
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <div className="bg-slate-50 min-h-screen">
@@ -61,5 +61,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
