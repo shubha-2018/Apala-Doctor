@@ -1,6 +1,7 @@
 // src/components/FeaturedListings.jsx
 
-import { listings, badgeColors } from "../data/homeData";
+// import { listings, badgeColors } from "../data/homeData";
+import { listings, badgeColors } from "../data/Homedata";
 
 export default function FeaturedListings() {
   return (
