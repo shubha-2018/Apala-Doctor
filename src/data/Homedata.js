@@ -6,19 +6,19 @@ export const popularSearches = [
 ];
 
 export const listings = [
-  { name: "Apollo Hospital",    category: "Multi-Specialty",  city: "Mumbai",     rating: 4.9, reviews: 2341, badge: "Top Rated", image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=400&q=80" },
-  { name: "Lilavati Hospital",  category: "Super Specialty",  city: "Bandra",     rating: 4.8, reviews: 1890, badge: "Open 24/7", image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80" },
-  { name: "Kokilaben Hospital", category: "Cancer Centre",    city: "Andheri",    rating: 4.7, reviews: 1540, badge: "New",       image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=400&q=80" },
-  { name: "Fortis Hiranandani", category: "Cardiac Care",    city: "Vashi",      rating: 4.8, reviews: 987,  badge: "Emergency", image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&q=80" },
-  { name: "Nanavati Hospital",  category: "General Hospital", city: "Vile Parle", rating: 4.6, reviews: 1230, badge: "Govt. Aid", image: "https://images.unsplash.com/photo-1632833239869-a37e3a5806d2?w=400&q=80" },
+  { name: "Apollo Hospital",    category: "Multi-Specialty",  city: "Mumbai",     rating: 4.9, reviews: 2341, badge: "Top Rated", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Apollo_Hospitals_logo.svg/320px-Apollo_Hospitals_logo.svg.png" },
+  { name: "Lilavati Hospital",  category: "Super Specialty",  city: "Bandra",     rating: 4.8, reviews: 1890, badge: "Open 24/7", image: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?w=400" },
+  { name: "Kokilaben Hospital", category: "Cancer Centre",    city: "Andheri",    rating: 4.7, reviews: 1540, badge: "New",       image: "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?w=400" },
+  { name: "Fortis Hiranandani", category: "Cardiac Care",    city: "Vashi",      rating: 4.8, reviews: 987,  badge: "Emergency", image: "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg?w=400" },
+  { name: "Nanavati Hospital",  category: "General Hospital", city: "Vile Parle", rating: 4.6, reviews: 1230, badge: "Govt. Aid", image: "https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?w=400" },
 ];
 
 export const cities = [
-  { name: "Pune",       listings: "1200+", image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=400&q=80" },
-  { name: "Mumbai",     listings: "2500+", image: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=400&q=80" },
-  { name: "Nagpur",     listings: "900+",  image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=400&q=80" },
-  { name: "Nashik",     listings: "800+",  image: "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=400&q=80" },
-  { name: "Aurangabad", listings: "700+",  image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=400&q=80" },
+  { name: "Pune",       listings: "1200+", image: "https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg?w=400" },
+  { name: "Mumbai",     listings: "2500+", image: "https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg?w=400" },
+  { name: "Nagpur",     listings: "900+",  image: "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?w=400" },
+  { name: "Nashik",     listings: "800+",  image: "https://images.pexels.com/photos/3889843/pexels-photo-3889843.jpeg?w=400" },
+  { name: "Aurangabad", listings: "700+",  image: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?w=400" },
 ];
 
 export const badgeColors = {
@@ -42,7 +42,6 @@ export const reviews = [
   { name: "Amit Verma",   review: "Excellent healthcare directory." },
 ];
 
-// ✅ homeData export add केला — PopularCities.jsx साठी
 export const homeData = {
   popularSearches,
   listings,
