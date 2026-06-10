@@ -6,11 +6,11 @@ export const popularSearches = [
 ];
 
 export const listings = [
-  { name: "Apollo Hospital",    category: "Multi-Specialty",  city: "Mumbai",     rating: 4.9, reviews: 2341, badge: "Top Rated", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Apollo_Hospitals_logo.svg/320px-Apollo_Hospitals_logo.svg.png" },
-  { name: "Lilavati Hospital",  category: "Super Specialty",  city: "Bandra",     rating: 4.8, reviews: 1890, badge: "Open 24/7", image: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?w=400" },
-  { name: "Kokilaben Hospital", category: "Cancer Centre",    city: "Andheri",    rating: 4.7, reviews: 1540, badge: "New",       image: "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?w=400" },
-  { name: "Fortis Hiranandani", category: "Cardiac Care",    city: "Vashi",      rating: 4.8, reviews: 987,  badge: "Emergency", image: "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg?w=400" },
-  { name: "Nanavati Hospital",  category: "General Hospital", city: "Vile Parle", rating: 4.6, reviews: 1230, badge: "Govt. Aid", image: "https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?w=400" },
+  { name: "Apollo Hospital",    category: "Multi-Specialty",  city: "Mumbai",     rating: 4.9, reviews: 2341, badge: "Top Rated", image: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?w=400" },
+  { name: "Lilavati Hospital",  category: "Super Specialty",  city: "Bandra",     rating: 4.8, reviews: 1890, badge: "Open 24/7", image: "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?w=400" },
+  { name: "Kokilaben Hospital", category: "Cancer Centre",    city: "Andheri",    rating: 4.7, reviews: 1540, badge: "New",       image: "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg?w=400" },
+  { name: "Fortis Hiranandani", category: "Cardiac Care",    city: "Vashi",      rating: 4.8, reviews: 987,  badge: "Emergency", image: "https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?w=400" },
+  { name: "Nanavati Hospital",  category: "General Hospital", city: "Vile Parle", rating: 4.6, reviews: 1230, badge: "Govt. Aid", image: "https://images.pexels.com/photos/1692693/pexels-photo-1692693.jpeg?w=400" },
 ];
 
 export const cities = [
