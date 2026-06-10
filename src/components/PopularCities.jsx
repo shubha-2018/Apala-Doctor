@@ -1,4 +1,5 @@
-import { cities } from "../data/homeData.js";
+// import { cities } from "../data/homeData.js";
+import { cities } from "../data/Homedata.js";
 
 export default function PopularCities() {
   return (
