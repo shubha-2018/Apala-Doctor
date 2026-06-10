@@ -49,30 +49,6 @@ export default function Hero() {
               />
             ))}
 
-            {/* Left Arrow */}
-            <button
-              onClick={prevSlide}
-              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10
-              flex items-center justify-center
-              w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12
-              rounded-full bg-black/40 hover:bg-black/60
-              text-white text-lg"
-            >
-              ❮
-            </button>
-
-            {/* Right Arrow */}
-            <button
-              onClick={nextSlide}
-              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10
-              flex items-center justify-center
-              w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12
-              rounded-full bg-black/40 hover:bg-black/60
-              text-white text-lg"
-            >
-              ❯
-            </button>
-
             {/* Dots */}
             <div className="absolute bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
               {images.map((_, index) => (

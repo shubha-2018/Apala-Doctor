@@ -130,7 +130,7 @@ function Contact() {
             <div className="bg-white p-5 sm:p-6 rounded-2xl sm:rounded-3xl shadow-md">
 
               <h3 className="text-blue-700 text-xl sm:text-2xl font-bold mb-4">
-                About Aaple Doctor
+                Aaple Doctor
               </h3>
 
               <p className="text-gray-600 leading-6 sm:leading-7 text-sm sm:text-base">

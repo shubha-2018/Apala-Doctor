@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes, FaHeartbeat } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
+
+// ✅ Place your logo image in /src/assets/ and update the path below
+import logo from "../assets/logo.jpeg"; // <-- update this path to your logo file
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,29 +14,20 @@ export default function Navbar() {
 
         <div className="flex items-center justify-between h-16 sm:h-18 md:h-20">
 
-          {/* Logo */}
+          {/* ── Logo ── */}
           <Link
             to="/"
-            className="flex items-center gap-2 sm:gap-3 flex-shrink-0"
+            className="flex items-center flex-shrink-0"
           >
-            <div className="bg-white p-2 md:p-3 rounded-xl shadow-md">
-              <FaHeartbeat className="text-blue-700 text-xl sm:text-2xl md:text-3xl" />
-            </div>
-
-            <div>
-              <h1 className="text-white text-lg sm:text-xl md:text-2xl font-extrabold leading-none">
-                AAPLE
-              </h1>
-
-              <p className="text-white tracking-[3px] sm:tracking-[4px] text-[9px] sm:text-[10px] md:text-xs font-semibold">
-                DOCTOR
-              </p>
-            </div>
+            <img
+              src={logo}
+              alt="Majhe Doctor Logo"
+              className="h-10 sm:h-12 md:h-14 w-auto object-contain bg-white rounded-xl px-2 py-1 shadow-md"
+            />
           </Link>
 
-          {/* Desktop Menu */}
+          {/* ── Desktop Menu ── */}
           <div className="hidden md:flex items-center gap-6 lg:gap-10 xl:gap-12">
-
             <Link
               to="/"
               className="text-white font-medium hover:text-blue-200 transition duration-300"
@@ -54,17 +48,16 @@ export default function Navbar() {
             >
               Contact
             </Link>
-
           </div>
 
-          {/* Desktop Login */}
+          {/* ── Desktop Login ── */}
           <div className="hidden md:block">
             <button className="bg-white text-blue-700 px-4 lg:px-5 py-2.5 rounded-xl font-semibold shadow-md hover:bg-gray-100 transition duration-300">
               Login
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* ── Mobile Menu Button ── */}
           <button
             className="md:hidden text-white text-2xl"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -76,7 +69,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* ── Mobile Menu ── */}
       <div
         className={`md:hidden bg-blue-800 overflow-hidden transition-all duration-300 ease-in-out ${
           menuOpen ? "max-h-96" : "max-h-0"
