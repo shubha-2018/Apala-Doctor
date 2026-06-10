@@ -10,7 +10,6 @@ import Categories from "./components/Categories";
 import PopularCities from "./components/PopularCities";
 import Statistics from "./components/Statistics";
 import Testimonials from "./components/Testimonials";
-//import CTA from "./components/CTA";
 import ListingsPanel from "./components/ListingsPanel";
 
 import About from "./pages/About";
@@ -25,6 +24,7 @@ function Home() {
         <Hero />
 
         <SearchBox onCategorySelect={setActiveCategory} />
+
         <QuickFilters
           activeCategory={activeCategory}
           onCategorySelect={setActiveCategory}
@@ -48,7 +48,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-slate-50 min-h-screen">
-
         <Navbar />
 
         <Routes>
@@ -58,7 +57,6 @@ function App() {
         </Routes>
 
         <Footer />
-
       </div>
     </BrowserRouter>
   );
